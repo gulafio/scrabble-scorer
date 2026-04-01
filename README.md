@@ -1,4 +1,4 @@
-# SCRABBLE SCORE TRACKER:
+# SCRABBLE SCORE TRACKER
 A console-based Scrabble score tracking tool written in C. Designed to assist players during a physical game of Scrabble by handling all score calculations automatically.
 
 ## FEATURES:
