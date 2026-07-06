@@ -93,7 +93,7 @@ void gameLoop(struct player players[], int playerCount) {
         } while(choice < 1 || choice > 3);
 
         if(choice == 1) {
-            // Play word
+            // Plays word
             int wordConfirm = 0;
             char word[50];
 
@@ -196,12 +196,12 @@ void gameLoop(struct player players[], int playerCount) {
         }
 
         if (choice == 2) {
-            // Exchange tiles
+            // Exchanges tiles
             printf("%s chose to exchange tiles.\n", p->name);
         }
 
         if (choice == 3) {
-            // Pass
+            // Passes
             p->passes++;
             printf("%s passed (%d/2)\n", p->name, p->passes);
         } else if(choice == 1 || choice == 2){
@@ -233,7 +233,7 @@ int scoreCalculator(char word[], char dlLetter, char tlLetter, int dw, int tw, c
 
     int dlPos = -1, tlPos = -1, blankPos = -1;
 
-    // Find positions
+    // Finds positions
     int len = strlen(word);
     for (int i = 0; i < len; i++) {
         if (toupper(word[i]) == dlLetter && dlPos == -1) dlPos = i;
@@ -241,7 +241,7 @@ int scoreCalculator(char word[], char dlLetter, char tlLetter, int dw, int tw, c
         if (toupper(word[i]) == blankLetter && blankPos == -1) blankPos = i;
     }
 
-    // Calculate score
+    // Calculates score
     int score = 0;
     for (int i = 0; i < len; i++) {
         int ls = letterScores(word[i]);
