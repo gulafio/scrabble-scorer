@@ -2,16 +2,16 @@
 A console-based Scrabble score tracking tool written in C. Designed to assist players during a physical game of Scrabble by handling all score calculations automatically.
 
 ## FEATURES:
-_Multi-player support
-_Letter scoring based on official Scrabble tile values
-_Premium square multipliers:
-  _Double/Triple Letter Scores
-  _Double/Triple Word Scores
-  _Support for multiple multipliers in a single word
-_Blank tile handling
-_Input validation
-_Pass tracking — game ends when all players pass twice consecutively
-_Final scoreboard with winner announcement (accounts for ties)
+Multi-player support
+Letter scoring based on official Scrabble tile values
+Premium square multipliers:
+- Double/Triple Letter Scores
+- Double/Triple Word Scores
+- Support for multiple multipliers in a single word
+- Blank tile handling
+- Input validation
+- Pass tracking 
+- Final scoreboard with winner announcement 
 
 ## COMPILING INSTRUCTIONS:
 Make sure you have GCC installed, then run:
